@@ -1,0 +1,86 @@
+.carcaza {
+    margin: 20px;
+    height: 400px;
+    width: 225px;
+    background: rgb(22, 21, 21);
+    display: flex;
+    position: relative;
+    border-radius: 7%;
+    justify-content: center;
+}
+
+.pantalla {
+    top: 25px;
+    height: 325px;
+    width: 185px;
+    background: rgb(53, 53, 53);
+    display: flex;
+    position: absolute;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.hora {
+    top: 40px;
+    width: 82px;
+    height: 40px;
+    position: absolute;
+    display: flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.líneas{
+    top: 40px;
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    display: flex;
+    background: transparent;
+    border-radius: 15%;
+    border: white solid 3px;
+}
+
+.cosita {
+    top: 280px;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    display: flex;
+    background: transparent;
+    border-radius: 50%;
+    border: white solid 3px;
+}
+
+.candado {
+    display: flex;
+    position: absolute;
+    top: 290px;
+    height: 20px;
+    width: 25px;
+    background: white;
+    border-radius: 20% 20% 0px 0px;
+    justify-content: center;
+}
+
+.llave1 {
+    position: absolute;
+    display: flex;
+    width: 7px;
+    height: 7px;
+    background: rgb(53, 53, 53);
+    border-radius: 50%;
+    top: 5px;
+}
+
+.llave2{
+    position: absolute;
+    display: flex;
+    background: rgb(53, 53, 53);
+    width: 3px;
+    height: 6px;
+    border-radius: 25%;
+    top: 10px;
+}
